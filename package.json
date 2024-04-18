@@ -1,0 +1,38 @@
+{
+  "name": "@safeheron/truffle-safeheron",
+  "version": "1.0.0",
+  "description": "truffle plugin for integrating with Safeheron",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "truffle",
+    "truffle-plugin",
+    "safeheron"
+  ],
+  "engines": {
+    "node": ">16 <=18.18"
+  },
+  "author": "xigaoku<xigaoku@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Safeheron/truffle-safeheron",
+  "dependencies": {
+    "@safeheron/api-sdk": "^1.0.5",
+    "ethereum-protocol": "^1.0.1",
+    "uuid": "^9.0.1",
+    "web3-provider-engine": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "@types/web3-provider-engine": "^14.0.4",
+    "typescript": "^5.4.5"
+  }
+}
